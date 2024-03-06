@@ -1,9 +1,9 @@
 // import React from 'react'
-import logo from "../assets/brand_logo.png";
+import logo from "../../public/images/brand_logo.png";
 const Navigation = () => {
   return (
     <div>
-      <nav>
+      <nav className="container">
         <div className="logo">
           <img src={logo} alt="logo"/>
         </div>
@@ -19,4 +19,4 @@ const Navigation = () => {
   )
 }
 
-export default Navigation
+export default Navigation;
