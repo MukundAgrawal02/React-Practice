@@ -24,10 +24,17 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="hero-image">
-        <img src={shoe} alt="shoe" />
+        <section>
+        <img className="hero-img" src={shoe} alt="shoe" />
+  <article>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </article>
+</section>
       </div>
-    </div>
   );
 };
 
