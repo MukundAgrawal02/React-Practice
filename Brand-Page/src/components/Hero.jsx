@@ -13,8 +13,8 @@ const HeroSection = () => {
           SHOES.
         </p>
         <div className="hero-btn">
-          <button>Show Now</button>
-          <button className="category-btn">Category</button>
+          <button className="pointer">Show Now</button>
+          <button className="category-btn pointer">Category</button>
         </div>
         <div className="shoping">
           <p>Also Available On</p>

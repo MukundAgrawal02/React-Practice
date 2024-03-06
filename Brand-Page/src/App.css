@@ -6,6 +6,9 @@
 body {
   font-family: "poppins", sans-serif;
 }
+.pointer{
+  cursor: pointer;
+}
 .container {
   margin: 0 auto;
   max-width: 1280px;
@@ -28,6 +31,17 @@ button {
   height: 32px;
   color: white;
   font-weight: 500;
+  border: 1px solid white;
+  transition: all ease 0.5s;
+}
+button:hover{
+  all: unset;
+  padding: 6px 16px;
+  background: white;
+  height: 32px;
+  color: var(--red);
+  font-weight: 500;
+  border: 1px solid var(--red);
 }
 .hero {
   display: flex;
@@ -60,6 +74,12 @@ button {
 background: transparent;
 color: var(--grey);
 border: 1px solid var(--grey);
+transition: all ease 0.5s;
+}
+.category-btn:hover{
+background: var(--red);
+color: white;
+border: 1px solid var(--red);
 }
 .shopping p{
     font-size: 14px;
@@ -68,4 +88,11 @@ border: 1px solid var(--grey);
 .brand-icon{
     display: flex;
     gap: 16px;
+}
+.nav-link{
+  transition: all ease-in-out 0.3s;
+  border: 1px solid white;
+}
+.nav-link:hover{
+  border-bottom: 1px solid black;
 }

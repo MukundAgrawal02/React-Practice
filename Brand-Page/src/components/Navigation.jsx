@@ -8,12 +8,12 @@ const Navigation = () => {
           <img src={logo} alt="logo"/>
         </div>
         <ul>
-          <li href="#">Menu</li>
-          <li href="#">Location</li>
-          <li href="#">About</li>
-          <li href="#">Contact</li>
+          <li className="pointer nav-link" href="#">Menu</li>
+          <li className="pointer nav-link" href="#">Location</li>
+          <li className="pointer nav-link" href="#">About</li>
+          <li className="pointer nav-link" href="#">Contact</li>
         </ul>
-        <button>login</button>
+        <button className="pointer">login</button>
       </nav>
     </div>
   )
